@@ -1,1 +1,25 @@
 @import "~bootstrap/scss/bootstrap";
+
+
+main{
+    background-image: url(https://getwallpapers.com/wallpaper/full/2/9/e/573379.jpg);
+    background-size: cover;
+
+
+
+
+
+    .card{
+    width: 700px;
+    margin: 5rem;
+    padding: 3rem;
+    box-shadow: 0 1rem 0.5rem rgba(0,0,0,0.5);
+    }
+}
+    .header{
+        h1{
+        margin-top: 2rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        }
+    }
