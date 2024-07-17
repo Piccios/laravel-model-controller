@@ -9,13 +9,11 @@ class PageController extends Controller
 {
     //restituisce la home page
     public function home(){
-        return view('guest.home');
+        return view('pages.home');
     }
 
     //restituisce la pagina dei film
     public function movies(){
-        return view ('guest.movies');
-
-
+        return view('pages.movies');
     }
 }
