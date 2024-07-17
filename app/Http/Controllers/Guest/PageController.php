@@ -14,6 +14,6 @@ class PageController extends Controller
 
     //restituisce la pagina dei film
     public function movies(){
-        return view('pages.movies');
+        return view('movies.index');
     }
 }
