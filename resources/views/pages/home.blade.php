@@ -3,6 +3,10 @@
 
     @section('main-content')
 
-    <h1>Ciao, qua dentro inserisci il contenuto del main con yield</h1>
-
+    <section class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Main page</h1>
+        </div>
+    </section>
     @endsection
